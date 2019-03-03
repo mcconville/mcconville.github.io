@@ -1,11 +1,20 @@
+body{
+    background-color: #fafafa;
+    font-family: 'Karla', 'Open Sans', sans-serif;
+}
+
 .tile {
-  height: 248px;
-  width: 248px;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #ffffff;
+  width: 208px;
+  height:208px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+border: 1px solid #ffffff;
+margin: 20px;
+background-color: #ffffff;
+    border: #e7e7e7 solid 1px;
+    border-radius: 4px;
 }
 
 /* .tile:hover{
@@ -19,6 +28,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .container {
@@ -27,6 +37,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .top {
@@ -39,7 +50,7 @@
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  /* border-bottom: 1px solid #eee; */
+      border-bottom: #e7e7e7 solid 1px;
 }
 
 .bar {
@@ -48,14 +59,13 @@
   display: -ms-flexbox;
   display: flex;
   flex-direction: row;
-  max-width: 900px;
+  max-width: 960px;
   justify-content: center;
-  width: 900px;
-  height: 100px;
+  width: 960px;
+  /* height: 100px; */
   align-items: center;
-  background: #00ABC0;
   padding: 20px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
   border-radius: 4px;
 }
 
@@ -87,30 +97,21 @@ a {
   max-width: 1000px;
 }
 
+a{color: #DD4231;}
+
 a.selected:link {
   text-decoration: none;
-  color: white;
   padding-left: 20px;
 }
 
-.selected {
-  color: white;
-}
 
 a.deselected:link {
   text-decoration: none;
-  color: white;
   padding-left: 20px;
-}
-
-.deselected {
-  font-weight: normal;
-  color: white;
-  opacity: 0.25;
+  opacity: 0.5;
 }
 
 .name {
-  color: white;
   font-size: 26px;
   margin-bottom: 2px;
 }
@@ -128,16 +129,20 @@ a.deselected:link {
   }
 
   .bar {
-    width: 330px;
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
   }
 
+.navigation{
+  flex:none;
+}
   .tile {
-    height: 180px;
-    width: 180px;
+    height: 145px;
+    width: 145px;
   }
 
   .name {
-    color: white;
     font-size: 20px;
     margin-bottom: 2px;
   }
