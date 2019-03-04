@@ -1,20 +1,20 @@
-body{
-    background-color: #fafafa;
-    font-family: 'Karla', 'Open Sans', sans-serif;
+body {
+  background-color: #fafafa;
+  font-family: 'Karla', 'Open Sans', sans-serif;
 }
 
 .tile {
   width: 208px;
-  height:208px;
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-border: 1px solid #ffffff;
-margin: 20px;
-background-color: #ffffff;
-    border: #e7e7e7 solid 1px;
-    border-radius: 4px;
+  height: 208px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  background-color: #ffffff;
+  border: #e7e7e7 solid 1px;
+  border-radius: 4px;
 }
 
 /* .tile:hover{
@@ -28,7 +28,6 @@ background-color: #ffffff;
   display: flex;
   flex-direction: column;
   align-items: center;
-
 }
 
 .container {
@@ -50,7 +49,7 @@ background-color: #ffffff;
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-      border-bottom: #e7e7e7 solid 1px;
+  border-bottom: #e7e7e7 solid 1px;
 }
 
 .bar {
@@ -97,13 +96,14 @@ a {
   max-width: 1000px;
 }
 
-a{color: #DD4231;}
+a {
+  color: #DD4231;
+}
 
 a.selected:link {
   text-decoration: none;
   padding-left: 20px;
 }
-
 
 a.deselected:link {
   text-decoration: none;
@@ -122,101 +122,99 @@ a.deselected:link {
 }
 
 .content {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-flow: row;
-    flex-flow: row;
-    max-width: 800px;
-    margin: auto;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row;
+  flex-flow: row;
+  max-width: 800px;
+  margin: auto;
 }
 
 .split {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutme {
-    margin-top: 40px;
-    width: 400px;
-    font-size: 13px;
-    line-height: 22px;
-    margin-left: 30px;
-    margin-right: 100px;
-    color: #015084;
+  margin-top: 40px;
+  width: 400px;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 30px;
+  margin-right: 100px;
+  color: #015084;
 }
 
 .outline {
-    display: flex;
-    display: -ms-flexbox;
-    align-content: center;
-    align-self: center;
-    flex-direction: column;
-    -ms-flex-direction: column;
-    width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  align-content: center;
+  align-self: center;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  width: 100%;
 }
 
 .socialContent {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    align-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  align-content: flex-end;
 }
 
 .leadimage {
-    width: 760px;
+  width: 760px;
 }
 
 .leadphoto {
-    padding: 20px;
-    background: white;
-    border-radius: 4px;
-    border: 1px solid #eaeaea;
+  padding: 20px;
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #eaeaea;
 }
 
 .aboutme {
-    margin-top: 40px;
-    width: 400px;
-    font-size: 13px;
-    line-height: 22px;
-    margin-left: 30px;
-    margin-right: 100px;
-    color: #015084;
+  margin-top: 40px;
+  width: 400px;
+  font-size: 13px;
+  line-height: 22px;
+  margin-left: 30px;
+  margin-right: 100px;
+  color: #015084;
 }
 
 .outline {
-    display: flex;
-    display: -ms-flexbox;
-    align-content: center;
-    align-self: center;
-    flex-direction: column;
-    -ms-flex-direction: column;
-    width: 100%;
+  display: flex;
+  display: -ms-flexbox;
+  align-content: center;
+  align-self: center;
+  flex-direction: column;
+  -ms-flex-direction: column;
+  width: 100%;
 }
 
 .contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 40px;
 }
 
 .social {
-    padding: 10px;
-    color: #4d4d4d;
-    font-size: 20px;
+  padding: 10px;
+  color: #4d4d4d;
+  font-size: 20px;
 }
 
 .social-container {
-    text-decoration: none;
-    flex-direction: row;
-    justify-content: flex-end;
-    display: flex;
-    width: 250px;
-    padding: 0;
-    justify-content: flex-end;
+  text-decoration: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  display: flex;
+  width: 250px;
+  padding: 0;
+  justify-content: flex-end;
 }
-
-
 
 /* iPhone X */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
@@ -231,9 +229,10 @@ a.deselected:link {
     padding: 20px;
   }
 
-.navigation{
-  flex:none;
-}
+  .navigation {
+    flex: none;
+  }
+
   .tile {
     height: 145px;
     width: 145px;
@@ -254,3 +253,73 @@ a.deselected:link {
 
 /*  iPhone 8 Plus */
 @media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {}
+
+/* Galaxy S5 portrait */
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .bar {
+    width: 90%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .tile {
+    width: 138px;
+    height: 138px;
+  }
+}
+
+@media only screen and (min-width: 411px) and (orientation: portrait) {
+
+  .container {
+    /* width: 100%; */
+    max-width: 411px;
+  }
+
+  .bar {
+    width: 90%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .tile {
+    width: 162px;
+    height: 162px;
+  }
+
+}
+
+/* iPhone 6, 7, & 8 in portrait & landscape */
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+
+
+  .container {
+    /* width: 100%; */
+    max-width: 375px;
+  }
+
+  .bar {
+    width: 100%;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .navigation {
+    flex: none;
+  }
+
+  .tile {
+    height: 145px;
+    width: 145px;
+  }
+
+  .name {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+
+  .projecticon {
+    height: 150px;
+  }
+}
