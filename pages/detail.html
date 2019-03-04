@@ -1,85 +1,78 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <title>Anton McConville - Digital Designer and Developer</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/normalize.css">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Anton McConville - Digital Designer and Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <link rel="stylesheet" href="../css/anton.css">
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="../css/main.css"> -->
-    <script src="../javascript/moment.js "></script>
-    <script src="../javascript/tabletop.js "></script>
-    <script src="../javascript/markdown.js "></script>
-    <script src="../javascript/detail.js "></script>
-    <script type="text/javascript ">
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'UA-2417759-1']);
-        _gaq.push(['_trackPageview']);
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet" type="text/css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
-        (function () {
-            var ga = document.createElement('script');
-            ga.type = 'text/javascript';
-            ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0];
-            s.parentNode.insertBefore(ga, s);
-        })();
-    </script>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="../css/normalize.css">
+  <!-- <link rel="stylesheet" href="css/skeleton.css"> -->
+  <link rel="stylesheet" href="../css/anton.css">
+
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
 </head>
 
-<body class="hickory">
-    <div class="top">
-        <div class="bar">
-            <a href="../index.html">
-                <div class="title">
-                    <div class="name">Anton McConville</div>
-                    <!--                    <div class="description">Digital Designer and Developer</div>-->
+<body>
 
-                </div>
-            </a>
-            <div class="navigation">
-                <a class="selected" href="../index.html">projects</a>
-                <a class="deselected end" href="../about.html">about</a>
-            </div>
+  <div class="top">
+    <div class="bar">
+      <a href="http://www.hickory.ca">
+        <div class="title">
+          <div class="name">Anton McConville</div>
+          <!--                    <div class="description">Digital Designer and Developer</div>-->
+
         </div>
+      </a>
+      <div class="navigation">
+        <a class="selected" href="index.html">projects</a>
+        <a class="deselected end" href="pages/about.html">about</a>
+      </div>
     </div>
-    <div class="site">
+  </div>
 
-        <div class="display">
-            <div><img class="phone" id="phone">
+  <div class="control">
+    <div class="container">
+      <div class="display">
+        <img class="phone" id="phone">
+        <div class="detail">
+          <div class="projectTitle">
+            <div class="projectName" id="projectname"></div>
+            <div><a class="projectLink" id="site"><i class="fa fa-globe"></i></a>
             </div>
-            <div class="detail">
-
-                <div class="projectTitle">
-                    <div class="projectName" id="projectname"></div>
-
-                    <div><a class="projectLink" id="site"><i class="fa fa-globe"></i>
-                    </a>
-                    </div>
-                    <div><a class="projectRepo" id="repo"><i class="fa fa-github-alt"></i></a>
-                    </div>
-                </div>
-                <div class="projectWhy" id="overview"></div>
-                <div class="projectTech" id="technology"></div>
-                <div class="projectStory" id="story"></div>
-
+            <div><a class="projectRepo" id="repo"><i class="fa fa-github-alt"></i></a>
             </div>
+          </div>
+          <div class="projectWhy" id="overview"></div>
+          <div class="projectTech" id="technology"></div>
+          <div class="projectStory" id="story"></div>
         </div>
+      </div>
     </div>
-    <!-- div class="footer ">
-        <div class="footer-container ">
-            <div class="copyright">Copyright - Anton McConville - 2016</div>
-            <div class="footer-github "><i class="fa fa-github-alt "></i>
-            </div>
-        </div>
-
-    </div-->
+  </div>
 </body>
-
+<script src="../javascript/moment.js "></script>
+<script src="../javascript/tabletop.js "></script>
+<script src="../javascript/markdown.js "></script>
+<script src="../javascript/detail.js "></script>
 </html>
-
-<html>

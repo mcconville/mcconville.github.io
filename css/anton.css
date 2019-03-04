@@ -217,127 +217,126 @@ a.deselected:link {
 }
 
 .display {
-    margin-top: 40px;
-    text-decoration: none;
-    /* flex-flow: row wrap; */
-    /* flex-wrap: wrap; */
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    align-items: center;
+  margin-top: 40px;
+  text-decoration: none;
+  /* flex-flow: row wrap; */
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  align-items: center;
 }
 
 .phone {
-    height: 600px;
-    /*    width: 295px;
+  height: 600px;
+  /*    width: 295px;
     */
-    border: none;
+  border: none;
 }
 
 .detail {
-    border: 1px solid #eeeeee;
-    border-radius: 10px;
-    width: 300px;
-    margin-left: 50px;
-    color: #015084;
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    background: white;
-    letter-spacing: 0.5;
-    line-height: 22px;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  width: 300px;
+  margin-left: 50px;
+  color: #015084;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: white;
+  letter-spacing: 0.5;
+  line-height: 22px;
 }
 
 .fa {
-    color: #015084;
+  color: #015084;
 }
 
 .projectTitle {
-    font-weight: bold;
-    border-bottom: 1px solid #eeeeee;
-    display: flex;
-    flex-direction: row;
-    height: 50px;
-    width: 300px;
-    align-items: center;
+  font-weight: bold;
+  border-bottom: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  width: 300px;
+  align-items: center;
 }
 
 .projectName {
-    padding-left: 15px;
-    height: 50px;
-    width: 200px;
-    border-right: 1px solid #eeeeee;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 18px;
-    font-weight: bold;
+  padding-left: 15px;
+  height: 50px;
+  width: 200px;
+  border-right: 1px solid #eeeeee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .projectLink {
-    border-right: 1px solid #eeeeee;
-    height: 50px;
-    width: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: #d14e2f;
+  border-right: 1px solid #eeeeee;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #d14e2f;
 }
 
 .projectRepo {
-    width: 50px;
-    height: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 18px;
-    color: #2e94b2;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #2e94b2;
 }
 
 .projectWhy {
-    height: 60px;
-    padding: 15px;
-    border-bottom: 1px solid #eeeeee;
+  height: 60px;
+  padding: 15px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .projectTech {
-    height: 200px;
-    border-bottom: 1px solid #eeeeee;
+  height: 200px;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .projectStory {
-    padding: 15px;
+  padding: 15px;
 }
 
-
 .site {
-    -webkit-box-align: stretch;
-    -webkit-align-items: stretch;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    border: 0 solid #000;
-    box-sizing: border-box;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-flex-shrink: 0;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    margin: 0 auto -30px;
-    max-width: 1010px;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-shrink: 0;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  margin: 0 auto -30px;
+  max-width: 1010px;
 }
 
 /* iPhone X */
@@ -370,6 +369,31 @@ a.deselected:link {
   .projecticon {
     height: 150px;
   }
+
+  .display {
+    100%;
+    flex-direction: column;
+  }
+
+  .phone {
+    width: 80%;
+  }
+
+  .detail {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    width: 100%%;
+    /* margin-left: 50px; */
+    color: #015084;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: white;
+    letter-spacing: 0.5;
+    line-height: 22px;
+    margin-top: 50px;
+  }
 }
 
 /* iPhone 8 */
@@ -390,10 +414,37 @@ a.deselected:link {
     width: 138px;
     height: 138px;
   }
+
+  .display {
+    100%;
+    flex-direction: column;
+  }
+
+  .phone {
+    width: 80%;
+    height:auto;
+  }
+
+  .detail {
+    border: 1px solid #eeeeee;
+  border-radius: 10px;
+  width: 100%%;
+  /* margin-left: 50px; */
+  color: #015084;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: white;
+  letter-spacing: 0.5;
+  line-height: 22px;
+  margin-left: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
 }
 
 @media only screen and (min-width: 411px) and (orientation: portrait) {
-
   .container {
     /* width: 100%; */
     max-width: 411px;
@@ -410,14 +461,37 @@ a.deselected:link {
     height: 162px;
   }
 
+  .display {
+    100%;
+    flex-direction: column;
+  }
+
+  .phone {
+    width: 80%;
+      height:auto;
+  }
+
+  .detail {
+    border: 1px solid #eeeeee;
+  border-radius: 10px;
+  width: 100%%;
+  /* margin-left: 50px; */
+  color: #015084;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: white;
+  letter-spacing: 0.5;
+  line-height: 22px;
+  margin-left: 0;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  }
 }
 
 /* iPhone 6, 7, & 8 in portrait & landscape */
-@media only screen
-and (min-device-width : 375px)
-and (max-device-width : 667px) {
-
-
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
   .container {
     /* width: 100%; */
     max-width: 375px;
@@ -445,5 +519,33 @@ and (max-device-width : 667px) {
 
   .projecticon {
     height: 150px;
+  }
+
+  .display {
+    100%;
+    flex-direction: column;
+  }
+
+  .phone {
+    width: 80%;
+      height:auto;
+  }
+
+  .detail {
+    border: 1px solid #eeeeee;
+border-radius: 10px;
+width: 100%%;
+/* margin-left: 50px; */
+color: #015084;
+font-size: 12px;
+display: flex;
+flex-direction: column;
+height: 600px;
+background: white;
+letter-spacing: 0.5;
+line-height: 22px;
+margin-left: 0;
+margin-top: 50px;
+margin-bottom: 50px;
   }
 }
