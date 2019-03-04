@@ -169,6 +169,7 @@ a.deselected:link {
 
 .leadphoto {
   padding: 20px;
+  margin-top:20px;
   background: white;
   border-radius: 4px;
   border: 1px solid #eaeaea;
@@ -252,6 +253,7 @@ a.deselected:link {
 
 .fa {
   color: #015084;
+  font-size: 24px !important;
 }
 
 .projectTitle {
