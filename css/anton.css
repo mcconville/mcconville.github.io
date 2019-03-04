@@ -121,6 +121,103 @@ a.deselected:link {
   justify-content: flex-end;
 }
 
+.content {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    flex-flow: row;
+    max-width: 800px;
+    margin: auto;
+}
+
+.split {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutme {
+    margin-top: 40px;
+    width: 400px;
+    font-size: 13px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 100px;
+    color: #015084;
+}
+
+.outline {
+    display: flex;
+    display: -ms-flexbox;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    width: 100%;
+}
+
+.socialContent {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-content: flex-end;
+}
+
+.leadimage {
+    width: 760px;
+}
+
+.leadphoto {
+    padding: 20px;
+    background: white;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+}
+
+.aboutme {
+    margin-top: 40px;
+    width: 400px;
+    font-size: 13px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-right: 100px;
+    color: #015084;
+}
+
+.outline {
+    display: flex;
+    display: -ms-flexbox;
+    align-content: center;
+    align-self: center;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.social {
+    padding: 10px;
+    color: #4d4d4d;
+    font-size: 20px;
+}
+
+.social-container {
+    text-decoration: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    width: 250px;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+
+
 /* iPhone X */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
   .container {
