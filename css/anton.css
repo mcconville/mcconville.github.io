@@ -105,6 +105,7 @@ a {
   flex-direction: row;
   flex: 1 0 0;
   align-self: center;
+  font-size: 18px;
 }
 
 .banner {
@@ -131,6 +132,12 @@ a.deselected:link {
 .name {
   font-size: 26px;
   margin-bottom: 2px;
+}
+
+.subtitle{
+  font-size: 13px;
+    color: #9896A4;
+    margin-top: 5px;
 }
 
 .menu {
@@ -501,6 +508,10 @@ a.deselected:link {
     border-radius: 4px;
     border: none;
   }
+
+  .subtitle{
+    display:none;
+  }
 }
 
 @media only screen and (min-width: 411px) and (orientation: portrait) {
@@ -579,6 +590,10 @@ a.deselected:link {
     background: none;
     border-radius: 4px;
     border: none;
+  }
+
+  .subtitle{
+    display:none;
   }
 }
 
@@ -672,5 +687,9 @@ a.deselected:link {
     margin-right: 30px;
     color: #015084;
     font-size: 16px;
+  }
+
+  .subtitle{
+    display:none;
   }
 }
