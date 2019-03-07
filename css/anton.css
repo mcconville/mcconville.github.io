@@ -25,6 +25,7 @@ body {
 
       /* border: 1px solid #e0f4f5; */
       border: 1px solid #e0f4f5;
+    }
 
 .caption {
   height: 50px;
@@ -40,7 +41,6 @@ body {
   /* border-top: 1px dashed #e7e7e7;
   border-top: 1px dashed #F7CAC9; */
   color: #034F84;
-}
 }
 
 /* .tile:hover{
