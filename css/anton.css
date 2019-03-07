@@ -7,7 +7,7 @@ body {
   background: url(../images/sepShadow2.png) repeat;
    height: 10px;
    z-index: 500;
-   margin-bottom: -4px;
+   margin-bottom: -8px;
    width: 100%;
 }
 
