@@ -3,6 +3,14 @@ body {
   font-family: 'Karla', 'Open Sans', sans-serif;
 }
 
+.tear{
+  background: url(../images/sepShadow2.png) repeat;
+   height: 10px;
+   z-index: 500;
+   margin-bottom: -4px;
+   width: 100%;
+}
+
 .tile {
   width: 208px;
   height: 208px;
@@ -68,7 +76,7 @@ body {
   align-items: center;
   -webkit-justify-content: center;
   justify-content: center;
-  border-bottom: #e7e7e7 solid 1px;
+  /* border-bottom: #e7e7e7 solid 1px; */
 }
 
 .bar {
