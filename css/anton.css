@@ -22,6 +22,11 @@ body {
   margin: 20px;
   background-color: #ffffff;
   border: #e7e7e7 solid 1px;
+
+      /* border: 1px solid #e0f4f5; */
+      border: 1px solid #e0f4f5;
+    /* border: 1px solid #e0f4f5; */
+
   /* border: 1px dashed #F7CAC9; */
   border-radius: 4px;
 }
