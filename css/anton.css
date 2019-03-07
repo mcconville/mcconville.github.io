@@ -14,7 +14,7 @@ body {
   margin: 20px;
   background-color: #ffffff;
   border: #e7e7e7 solid 1px;
-  border: 1px dashed #F7CAC9;
+  /* border: 1px dashed #F7CAC9; */
   border-radius: 4px;
 }
 
@@ -29,8 +29,8 @@ body {
   align-content: center;
   align-items: center;
   font-size: 13px;
-  border-top: 1px dashed #e7e7e7;
-  border-top: 1px dashed #F7CAC9;
+  /* border-top: 1px dashed #e7e7e7;
+  border-top: 1px dashed #F7CAC9; */
   color: #034F84;
 }
 }
@@ -136,10 +136,10 @@ a.deselected:link {
   margin-bottom: 2px;
 }
 
-.subtitle{
+.subtitle {
   font-size: 13px;
-    color: #9896A4;
-    margin-top: 5px;
+  color: #9896A4;
+  margin-top: 5px;
 }
 
 .menu {
@@ -511,8 +511,8 @@ a.deselected:link {
     border: none;
   }
 
-  .subtitle{
-    display:none;
+  .subtitle {
+    display: none;
   }
 }
 
@@ -594,8 +594,8 @@ a.deselected:link {
     border: none;
   }
 
-  .subtitle{
-    display:none;
+  .subtitle {
+    display: none;
   }
 }
 
@@ -691,7 +691,7 @@ a.deselected:link {
     font-size: 16px;
   }
 
-  .subtitle{
-    display:none;
+  .subtitle {
+    display: none;
   }
 }
