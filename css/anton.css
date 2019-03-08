@@ -3,12 +3,12 @@ body {
   font-family: 'Karla', 'Open Sans', sans-serif;
 }
 
-.tear{
+.tear {
   background: url(../images/sepShadow2.png) repeat;
-   height: 10px;
-   z-index: 500;
-   margin-bottom: -8px;
-   width: 100%;
+  height: 10px;
+  z-index: 500;
+  margin-bottom: -8px;
+  width: 100%;
 }
 
 .tile {
@@ -22,14 +22,14 @@ body {
   margin: 20px;
   background-color: #ffffff;
   border: #e7e7e7 solid 1px;
-
-      /* border: 1px solid #e0f4f5; */
-      border: 1px solid #e0f4f5;
-    }
+  border-radius: 5px;
+  /* border: 1px solid #e0f4f5; */
+  /* border: 1px solid #e0f4f5; */
+}
 
 .caption {
-  height: 50px;
-  background: #e0f4f5;
+  height: 40px;
+  background: #fef1f0;
   width: 100%;
   justify-self: center;
   justify-content: center;
@@ -38,9 +38,7 @@ body {
   align-content: center;
   align-items: center;
   font-size: 13px;
-  /* border-top: 1px dashed #e7e7e7;
-  border-top: 1px dashed #F7CAC9; */
-  color: #034F84;
+  color: #4c4b52;
 }
 
 /* .tile:hover{
@@ -146,7 +144,7 @@ a.deselected:link {
 
 .subtitle {
   font-size: 13px;
-  color: #9896A4;
+  color: #4c4b52;
   margin-top: 5px;
 }
 
@@ -271,21 +269,21 @@ a.deselected:link {
 
 .detail {
   border: 1px solid #eeeeee;
-  border-radius: 10px;
-  width: 300px;
-  margin-left: 50px;
-  color: #015084;
-  font-size: 14px;
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  background: white;
-  letter-spacing: 0.5;
-  line-height: 22px;
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 50px;
+    color: #4c4b52;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: white;
+    letter-spacing: 0.5;
+    line-height: 22px;
 }
 
 .fa {
-  color: #015084;
+  color: #4c4b52;
   font-size: 24px !important;
 }
 
