@@ -15,14 +15,12 @@ body {
   width: 808px;
     height: auto;
     margin-top: 50px;
-    background: #cacecb;
     word-spacing: 2px;
     border-radius: 3px;
     padding: 15px;
     font-size: 13px;
     line-height: 20px;
     color: #274255;
-    border: 1px solid #bcc4cb;
 }
 
 .tile {
@@ -98,7 +96,7 @@ body {
 .projecticon {
   height: 150px;
   background: #f1f3f3;
-  border: 1px dashed #bcc4cb;
+  /* border: 1px dashed #bcc4cb; */
   border-radius: 3px;
 }
 
