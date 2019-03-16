@@ -11,6 +11,19 @@ body {
   width: 100%;
 }
 
+.intro{
+  width: 800px;
+    height: 80px;
+    margin-top: 50px;
+    background: #cacecb;
+    word-spacing: 2px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #274255;
+}
+
 .tile {
   width: 178px;
   height: 208px;
@@ -442,6 +455,18 @@ a.deselected:link {
     line-height: 22px;
     margin-top: 50px;
   }
+.intro{
+  width: 80%;
+ height: auto; 
+margin-top: 50px;
+background: #cacecb;
+word-spacing: 2px;
+border-radius: 3px;
+padding: 15px;
+font-size: 16px;
+line-height: 20px;
+color: #274255;
+}
 
   .leadimage {
     width: 100%;
