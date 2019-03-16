@@ -191,7 +191,8 @@ a.deselected:link {
 
 .name {
   font-size: 26px;
-  margin-bottom: 2px;
+margin-bottom: 2px;
+font-weight: bold;
 }
 
 .subtitle {
