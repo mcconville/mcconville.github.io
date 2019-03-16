@@ -83,7 +83,9 @@ body {
 } */
 .projecticon {
   height: 150px;
-  background: #fcfaf8;
+background: #fcfaf8;
+border: 1px solid #f1eeec;
+border-radius: 3px;
 }
 
 .control {
