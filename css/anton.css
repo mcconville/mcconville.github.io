@@ -1,5 +1,6 @@
 body {
-  background-color: #c5c9c6;
+  /* background-color: #c5c9c6; */
+  background-color: #d1d8da;
   font-family: 'Karla', 'Open Sans', sans-serif;
 }
 
@@ -33,7 +34,7 @@ body {
   /* border: 1px solid #ffffff; */
   margin: 20px;
   background-color: #ffffff;
-  border: #bcc4cb solid 1px;
+  /* border: #bcc4cb solid 1px; */
   border-radius: 3px;
 }
 
@@ -95,8 +96,8 @@ body {
 } */
 .projecticon {
   height: 150px;
-  background: #f1f3f3;
-  /* border: 1px dashed #bcc4cb; */
+  background: #fcfaf8; /* #f1f3f3 */
+  border: 1px dotted #F7F3E8;
   border-radius: 3px;
 }
 
