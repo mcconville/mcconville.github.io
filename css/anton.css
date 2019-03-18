@@ -200,7 +200,6 @@ font-weight: bold;
   font-size: 14px;
   color: #274255;
   margin-top: 5px;
-  font-weight: bold;
 }
 
 .menu {
@@ -401,6 +400,26 @@ font-weight: bold;
 .projectStory {
   padding: 15px;
 }
+
+.background{
+  width: 356px;
+  height: 208px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid #ffffff; */
+  margin: 20px;
+  background-color: #ffffff;
+  /* border: #bcc4cb solid 1px; */
+  border-radius: 3px;
+}
+
+.links{
+
+}
+
+
 
 /* iPhone X */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
