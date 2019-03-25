@@ -12,16 +12,52 @@ body {
   width: 100%;
 }
 
-.intro{
+.intro {
   width: 808px;
-    height: auto;
-    margin-top: 50px;
-    word-spacing: 2px;
-    border-radius: 3px;
-    padding: 15px;
-    font-size: 13px;
-    line-height: 20px;
-    color: #274255;
+  height: auto;
+  margin-top: 50px;
+  word-spacing: 2px;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 13px;
+  line-height: 20px;
+  color: #274255;
+}
+
+.preface{
+  display: flex;
+    flex-direction: row;
+    width: 840px;
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.backgroundtitle{
+  font-weight: bold;
+}
+
+.technology{
+  list-style-type: none;
+      margin: 10px;
+      border: 1px dashed #274255;
+      border-radius: 4px;
+      padding: 5px;
+}
+
+.backgroundtech{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.context{
+  display: flex;
+  flex-direction: row;
 }
 
 .tile {
@@ -41,7 +77,7 @@ body {
 .card {
   width: 300px;
   height: 420px;
-/*   margin-top: 40px;
+  /*   margin-top: 40px;
   margin-left: 150px; */
   justify-self: center;
   position: relative;
@@ -52,6 +88,7 @@ body {
   justify-content: center;
   align-content: center;
 }
+
 .card::after,
 .card::before {
   content: "";
@@ -64,11 +101,13 @@ body {
     radial-gradient(circle, #3396f5 50%, transparent 50%);
   background-size: 20px 20px;
 }
+
 .card::before {
   top: 10px;
   background-repeat: repeat-y;
   background-position: -4% 0%, 104.2% 0;
 }
+
 .card::after {
   width: 280px;
   height: 420px;
@@ -79,16 +118,16 @@ body {
 
 .caption {
   height: 25px;
-    width: 100%;
-    justify-self: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    align-items: center;
-    font-size: 13px;
-    color: #274255;
-    padding-top: 10px;
+  width: 100%;
+  justify-self: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #274255;
+  padding-top: 10px;
 }
 
 /* .tile:hover{
@@ -96,7 +135,8 @@ body {
 } */
 .projecticon {
   height: 150px;
-  background: #fcfaf8; /* #f1f3f3 */
+  background: #fcfaf8;
+  /* #f1f3f3 */
   border: 1px dotted #F7F3E8;
   border-radius: 3px;
 }
@@ -110,6 +150,16 @@ body {
 .container {
   /* width: 100%; */
   max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.detailcontainer {
+  /* width: 100%; */
+  max-width: 840px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -192,8 +242,8 @@ a.deselected:link {
 
 .name {
   font-size: 26px;
-margin-bottom: 2px;
-font-weight: bold;
+  margin-bottom: 2px;
+  font-weight: bold;
 }
 
 .subtitle {
@@ -323,17 +373,17 @@ font-weight: bold;
 
 .detail {
   border: 1px solid #eeeeee;
-    border-radius: 5px;
-    width: 300px;
-    margin-left: 50px;
-    color: #274255;
-    font-size: 13px;
-    display: flex;
-    flex-direction: column;
-    height: 600px;
-    background: #fcfaf8;
-    letter-spacing: 0.5;
-    line-height: 22px;
+  border-radius: 5px;
+  width: 300px;
+  margin-left: 50px;
+  color: #274255;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: #fcfaf8;
+  letter-spacing: 0.5;
+  line-height: 22px;
 }
 
 .fa {
@@ -401,9 +451,10 @@ font-weight: bold;
   padding: 15px;
 }
 
-.background{
-  width: 356px;
-  height: 208px;
+.background {
+  width: 510px;
+  height: 188px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -415,11 +466,91 @@ font-weight: bold;
   border-radius: 3px;
 }
 
-.links{
+.backgroundstory {
+  /* margin-top: 10px; */
+  line-height: 20px;
+  word-spacing: 2px;
+  margin-top:0px;
+  margin-bottom: 20px;
 
+  font-size: 14px;
 }
 
+.robotstory{
+  width: 820px;
+     height: 300px;
+     padding: 10px;
+     background: white;
+     border-radius: 4px;
+     margin-top: 20px;
+}
 
+.backgroundbreak{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+
+.innerstruggle {
+  /* background: #fcfaf8;
+  border: 1px dotted #F7F3E8; */
+  width: 490px;
+  height: 178px;
+  /* padding: 10px; */
+  font-size: 14px;
+  color: #274255;
+  display: flex;
+  flex-direction: column;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkster {
+  background: #fcfaf8;
+  margin: 20px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.palette {
+  display: flex;
+  flex-direction: row;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  margin: 20px;
+  background: white;
+  border-radius: 4px;
+}
+
+.splash {
+  background: #fcfaf8;
+  width: 50px;
+  height: 50px;
+}
+
+.screenshots {
+  display: flex;
+  flex-direction: row;
+}
+
+.screenshot{
+  height: 415px;
+  /* width: 800px; */
+  margin: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+}
+
+.robotview{
+  height:415px;
+}
 
 /* iPhone X */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
@@ -477,21 +608,21 @@ font-weight: bold;
     margin-top: 50px;
   }
 
-.intro{
-  width: 80%;
- height: auto;
-margin-top: 50px;
-word-spacing: 2px;
-border-radius: 3px;
-padding: 15px;
-font-size: 16px;
-line-height: 20px;
-color: #274255;
-}
+  .intro {
+    width: 80%;
+    height: auto;
+    margin-top: 50px;
+    word-spacing: 2px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #274255;
+  }
 
-.tear{
-  display: none;
-}
+  .tear {
+    display: none;
+  }
 
   .leadimage {
     width: 100%;
@@ -611,6 +742,28 @@ color: #274255;
   }
 }
 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait){
+
+.intro {
+width: 90%;
+}
+
+.bar{
+  max-width: 300px;
+  width: 300px;
+    flex-direction: column;
+}
+
+.subtitle{
+  display: none;
+}
+
+}
+
+
 @media only screen and (min-width: 411px) and (orientation: portrait) {
   .container {
     /* width: 100%; */
@@ -621,6 +774,7 @@ color: #274255;
     width: 90%;
     margin-top: 0;
     padding: 20px;
+
   }
 
   .tile {
@@ -688,19 +842,19 @@ color: #274255;
     border: none;
   }
 
-  .intro{
+  .intro {
     width: 80%;
-   height: auto;
-  margin-top: 50px;
-  word-spacing: 2px;
-  border-radius: 3px;
-  padding: 15px;
-  font-size: 16px;
-  line-height: 20px;
-  color: #274255;
+    height: auto;
+    margin-top: 50px;
+    word-spacing: 2px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #274255;
   }
 
-  .tear{
+  .tear {
     display: none;
   }
 
@@ -803,4 +957,9 @@ color: #274255;
   .subtitle {
     display: none;
   }
+
+
+
+
+
 }
