@@ -774,6 +774,27 @@ width: 90%;
   display: none;
 }
 
+.detail {
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  width: 100%%;
+  margin-left: 0;
+  color: #015084;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  background: white;
+  letter-spacing: 0.5;
+  line-height: 22px;
+  margin-top: 50px;
+}
+
+.display {
+    100%: ;
+    flex-direction: column;
+}
+
 }
 
 
