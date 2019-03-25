@@ -747,6 +747,19 @@ and (min-device-width : 320px)
 and (max-device-width : 568px)
 and (orientation : portrait){
 
+  a.selected:link {
+    text-decoration: none;
+    padding-left: 10px;
+      padding-right: 10px;
+  }
+
+  a.deselected:link {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.5;
+  }
+
 .intro {
 width: 90%;
 }
