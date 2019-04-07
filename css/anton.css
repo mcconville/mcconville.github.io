@@ -24,38 +24,38 @@ body {
   color: #274255;
 }
 
-.preface{
+.preface {
   display: flex;
-    flex-direction: row;
-    width: 840px;
-    padding-left: 0;
-    padding-right: 0;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  flex-direction: row;
+  width: 840px;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.backgroundtitle{
+.backgroundtitle {
   font-weight: bold;
 }
 
-.technology{
+.technology {
   list-style-type: none;
-      margin: 10px;
-      border: 1px dashed #274255;
-      border-radius: 4px;
-      padding: 5px;
+  margin: 10px;
+  border: 1px dashed #274255;
+  border-radius: 4px;
+  padding: 5px;
 }
 
-.backgroundtech{
+.backgroundtech {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: row;
 }
 
-.context{
+.context {
   display: flex;
   flex-direction: row;
 }
@@ -470,23 +470,22 @@ a.deselected:link {
   /* margin-top: 10px; */
   line-height: 20px;
   word-spacing: 2px;
-  margin-top:0px;
+  margin-top: 0px;
   margin-bottom: 20px;
-
   font-size: 14px;
 }
 
-.robotstory{
+.robotstory {
   width: 820px;
-     height: 300px;
-     padding: 10px;
-     background: white;
-     border-radius: 4px;
-     margin-top: 20px;
+  height: 300px;
+  padding: 10px;
+  background: white;
+  border-radius: 4px;
+  margin-top: 20px;
 }
 
-.backgroundbreak{
-  margin-top:20px;
+.backgroundbreak {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -539,7 +538,7 @@ a.deselected:link {
   flex-direction: row;
 }
 
-.screenshot{
+.screenshot {
   height: 415px;
   /* width: 800px; */
   margin: 20px;
@@ -548,8 +547,8 @@ a.deselected:link {
   border-radius: 4px;
 }
 
-.robotview{
-  height:415px;
+.robotview {
+  height: 415px;
 }
 
 /* iPhone X */
@@ -658,12 +657,6 @@ a.deselected:link {
   }
 }
 
-/* iPhone 8 */
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) {}
-
-/*  iPhone 8 Plus */
-@media only screen and (device-width : 414px) and (device-height : 736px) and (-webkit-device-pixel-ratio : 3) {}
-
 /* Galaxy S5 portrait */
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
   .bar {
@@ -742,15 +735,11 @@ a.deselected:link {
   }
 }
 
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 568px)
-and (orientation : portrait){
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) and (orientation : portrait) {
   a.selected:link {
     text-decoration: none;
     padding-left: 10px;
-      padding-right: 10px;
+    padding-right: 10px;
   }
 
   a.deselected:link {
@@ -760,53 +749,50 @@ and (orientation : portrait){
     opacity: 0.5;
   }
 
-.intro {
-width: 90%;
-}
+  .intro {
+    width: 90%;
+  }
 
-.bar{
-  width: 300px;
-}
+  .bar {
+    width: 300px;
+  }
 
-.subtitle{
-  display: none;
-}
+  .subtitle {
+    display: none;
+  }
 
-.detail {
-  border: 1px solid #eeeeee;
-  border-radius: 10px;
-  width: 100%%;
-  margin-left: 0;
-  color: #015084;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  height: 600px;
-  background: white;
-  letter-spacing: 0.5;
-  line-height: 22px;
-  margin-top: 50px;
-}
+  .detail {
+    border: 1px solid #eeeeee;
+    border-radius: 10px;
+    width: 100%%;
+    margin-left: 0;
+    color: #015084;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    background: white;
+    letter-spacing: 0.5;
+    line-height: 22px;
+    margin-top: 50px;
+  }
 
-.display {
+  .display {
     100%: ;
     flex-direction: column;
+  }
 }
-
-}
-
 
 @media only screen and (min-width: 411px) and (orientation: portrait) {
   .container {
     /* width: 100%; */
-    max-width: 411px;
+    /* max-width: 411px; */
   }
 
   .bar {
     width: 90%;
     margin-top: 0;
     padding: 20px;
-
   }
 
   .tile {
@@ -892,6 +878,13 @@ width: 90%;
 
   .subtitle {
     display: none;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  .tile {
+    width: 182px;
+    height: 214px;
   }
 }
 
@@ -989,9 +982,4 @@ width: 90%;
   .subtitle {
     display: none;
   }
-
-
-
-
-
 }
