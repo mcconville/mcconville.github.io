@@ -767,7 +767,6 @@ width: 90%;
 .bar{
   max-width: 300px;
   width: 300px;
-    flex-direction: column;
 }
 
 .subtitle{
