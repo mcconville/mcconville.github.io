@@ -157,6 +157,15 @@ body {
   justify-content: center;
 }
 
+.aboutcontainer {
+  /* width: 100%; */
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .detailcontainer {
   /* width: 100%; */
   max-width: 840px;
@@ -272,12 +281,13 @@ a.deselected:link {
 }
 
 .aboutme {
-  margin-top: 40px;
-  width: 400px;
+  margin-top: 30px;
+  /* width: 400px; */
   font-size: 13px;
   line-height: 22px;
   margin-left: 30px;
-  margin-right: 100px;
+  margin-right: 30px;
+  /* margin-right: 100px; */
   color: #274255;
 }
 
@@ -292,14 +302,15 @@ a.deselected:link {
 }
 
 .socialContent {
+  text-decoration: none;
+  flex-direction: row;
   display: flex;
-  flex-direction: column;
-  width: 200px;
-  align-content: flex-end;
+  width: 840px;
+  padding: 0;
 }
 
 .leadimage {
-  width: 760px;
+  width: 100%;
 }
 
 .leadphoto {
@@ -308,16 +319,6 @@ a.deselected:link {
   background: white;
   border-radius: 4px;
   border: 1px solid #eaeaea;
-}
-
-.aboutme {
-  margin-top: 40px;
-  width: 400px;
-  font-size: 13px;
-  line-height: 22px;
-  margin-left: 30px;
-  margin-right: 100px;
-  color: #274255;
 }
 
 .outline {
@@ -333,8 +334,8 @@ a.deselected:link {
 .contact {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
-  margin-top: 40px;
+  margin-top: 20px;
+  width: 840px;
 }
 
 .social {
@@ -551,11 +552,28 @@ a.deselected:link {
   height: 415px;
 }
 
+.biography {
+  background: #fcfaf8;
+  margin-top: 20px;
+  width: 840px;
+}
+
 /* iPhone X */
 @media only screen and (device-width : 375px) and (device-height : 812px) and (-webkit-device-pixel-ratio : 3) {
   .container {
     /* width: 100%; */
     max-width: 375px;
+  }
+
+.contact,
+  .biography,
+  .socialContent {
+    width:auto;
+  }
+
+  .social{
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .bar {
@@ -665,6 +683,17 @@ a.deselected:link {
     padding: 20px;
   }
 
+  .contact,
+    .biography,
+    .socialContent {
+      width:auto;
+    }
+
+    .social{
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
   .tile {
     width: 138px;
     height: 138px;
@@ -740,6 +769,17 @@ a.deselected:link {
     text-decoration: none;
     padding-left: 10px;
     padding-right: 10px;
+  }
+
+  .contact,
+  .biography,
+  .socialContent {
+    width:auto;
+  }
+
+  .social{
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   a.deselected:link {
