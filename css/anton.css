@@ -205,6 +205,12 @@ body {
   border-radius: 4px;
 }
 
+.am {
+  display: none;
+}
+
+.titlebit {}
+
 a {
   text-decoration: none;
 }
@@ -565,13 +571,13 @@ a.deselected:link {
     max-width: 375px;
   }
 
-.contact,
+  .contact,
   .biography,
   .socialContent {
-    width:auto;
+    width: auto;
   }
 
-  .social{
+  .social {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -684,15 +690,15 @@ a.deselected:link {
   }
 
   .contact,
-    .biography,
-    .socialContent {
-      width:auto;
-    }
+  .biography,
+  .socialContent {
+    width: auto;
+  }
 
-    .social{
-      padding-right: 20px;
-      padding-left: 20px;
-    }
+  .social {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 
   .tile {
     width: 138px;
@@ -774,10 +780,10 @@ a.deselected:link {
   .contact,
   .biography,
   .socialContent {
-    width:auto;
+    width: auto;
   }
 
-  .social{
+  .social {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -936,9 +942,10 @@ a.deselected:link {
   }
 
   .bar {
-    width: auto;
     margin-top: 0;
     padding: 20px;
+    justify-content: space-around;
+    width: 100%;
   }
 
   .navigation {
@@ -950,9 +957,18 @@ a.deselected:link {
     width: 145px;
   }
 
+  .titlebit{
+    display: none;
+  }
+
   .name {
     font-size: 20px;
     margin-bottom: 2px;
+    display: none;
+  }
+
+  .am {
+    display: flex;
   }
 
   .projecticon {
