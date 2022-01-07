@@ -86,13 +86,18 @@ function readGoogleData() {
 
     var spreadsheet = 'https://docs.google.com/spreadsheets/d/1921mR52Qtwtu0RyHvF3MFyLTR2yekTkoVlEjEWtS0WQ/pubhtml';
 
-    Tabletop.init({
-        key: spreadsheet,
-        callback: showInfo
-    });
+    Papa.parse('https://docs.google.com/spreadsheets/d/e/2PACX-1vSh3P7asoTh8dM-9ZhVv6pLG6iQF84dlDZ7_onJs5QFLHdVnJSM52_CQXmK7dGCrbYotHYZIEI3jmS-/pub?output=csv', {
+        download: true,
+        header: true,
+        complete: showProjects
+    })
 }
 
-
+function showProjects(results) {
+    var data = results.data
+    console.log(data)
+    data.forEach(renderSelected);
+}
 
 function readLocalData() {
     var xmlhttp;
